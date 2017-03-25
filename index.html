@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="libs/swiper.js" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="common/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<script src="libs/zepto.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/flexible.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/angular.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/angular-ui-router.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body ng-app="myApp">
+		<div ui-view></div>
+		<ul class="menu">
+			<li ui-sref="home">
+				<img src="imgs/one.jpg"/>
+				<a>首页</a>
+			</li>
+			<li ui-sref="sort">
+				<img src="imgs/two.jpg"/>
+				<a >分类</a>
+			</li>
+			<li ui-sref="pinDao">
+				<img src="imgs/three.jpg"/>
+				<a >频道</a>
+			</li>
+			<li ui-sref="cart">
+				<img src="imgs/four.jpg"/>
+				<a>购物车</a>
+			</li>
+			<li ui-sref="mine">
+				<img src="imgs/five.jpg"/>
+				<a>我的</a>
+			</li>
+		</ul>
+	</body>
+	<script src="router.js" type="text/javascript" charset="utf-8"></script>
+	<script src="routerServer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="pinDao/js/pindao.js" type="text/javascript" charset="utf-8"></script>
+	<script src="pinDao/js/VTpinDao.js" type="text/javascript" charset="utf-8"></script>
+	<script src="storeDetali/js/storeDetali.js" type="text/javascript" charset="utf-8"></script>
+	<script src="home/js/home.js" charset="utf-8"></script>
+	
+	<script type="text/javascript" src="sort/js/sort.js" ></script>
+	<script type="text/javascript" src="sort/js/tuijian.js" ></script>
+	<script type="text/javascript" src="sort/js/nanzhuang.js" ></script>
+	<script type="text/javascript" src="sort/js/nvzhuang.js" ></script>
+	<script type="text/javascript" src="sort/js/nanxie.js" ></script>
+	<script type="text/javascript" src="sort/js/nvxie.js" ></script>
+	
+	<script src="changeStore/js/changeStore.js" type="text/javascript" charset="utf-8"></script>
+	<script src="home/js/denglu.js" type="text/javascript" charset="utf-8"></script>
+	
+	
+	
+</html>

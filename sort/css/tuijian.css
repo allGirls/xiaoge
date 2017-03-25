@@ -1,0 +1,26 @@
+
+/*=============右边每一块列表=============*/
+.good_item ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
+}
+
+.good_item ul li{
+	width: 1.8637rem;
+	height: 3.277051rem;
+	display: flex;
+	margin-right: 0.525869rem;
+}
+
+.good_item ul li figure img{
+	width: 1.8637rem;
+	height: 1.891516rem;
+	margin-top: 0.169541rem;
+}
+
+.good_item ul li figure p{
+	font-size: 0.347705rem;
+	text-align: center;
+	margin-top: 0.316787rem;
+}

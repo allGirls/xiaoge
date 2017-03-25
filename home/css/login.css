@@ -1,0 +1,236 @@
+body {
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    max-width: 640px;
+    width: 100%;
+    overflow: hidden;
+    height: 1.2112676056338028rem;
+    background: #b81c22;
+    text-align: center;
+    line-height: 1.2112676056338028rem;
+}
+
+.topback {
+    position: absolute;
+    top: 50%;
+    left: 0.5211267605633803rem;
+    width: 0.39436619718309857rem;
+    height: 0.39436619718309857rem;
+    border-bottom: 0.028169014084507043rem solid #fff;
+    border-left: 0.028169014084507043rem solid #fff;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.topTitle {
+    display: inline-block;
+    font-size: 0.4084507042253521rem;
+    color: #fff;
+}
+
+
+/*----------内容--------*/
+
+.content {
+    position: relative;
+    top: 0;
+    max-width: 640px;
+    padding: 0.1px 0 0 0;
+}
+
+.login-tab {
+    text-align: center;
+    /*border-bottom: 0.04225352112676056rem solid #f2f2f2;*/
+    position: relative;
+    line-height: 1.1549295774647887rem;
+    font-size: 0.08450704225352113rem;
+    color: #666;
+}
+
+.login-tab span {
+    font-size: 0.39436619718309857rem;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.i1, .i2 {
+    width: 3.7464788732394365rem;
+    height: 0.08450704225352113rem;
+    text-align: center;
+    background-color: #b81c22;
+    display: block;
+    float: left;
+    position: relative;
+    left: 0.704225352112676rem;
+}
+
+
+/*----------form--------*/
+
+form {
+    display: block;
+}
+
+.inp1 input {
+    outline: none;
+    border: 1px solid rgb(245, 245, 245);
+    width: 8.915492957746478rem;
+    height: 0.8309859154929577rem;
+    background-color: rgb(245, 245, 245);
+    margin-top: 0.8450704225352113rem;
+    text-indent: 0.36619718309859156rem;
+}
+
+
+/*--------------*/
+
+.change {
+    padding: 0 0.6056338028169014rem 0 0.6056338028169014rem;
+}
+
+.inp2 {
+    padding: 0.1px 0 0 0;
+}
+
+.inp2 input {
+    width: 5.098591549295775rem;
+    height: 1.1549295774647887rem;
+    outline: none;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    text-indent: 0.36619718309859156rem;
+    margin: 0.4014084507042254rem 0;
+}
+
+.inp2 img {
+    display: inline-block;
+    width: 2.3943661971830985rem;
+    height: 1.0704225352112675rem;
+    margin: 0 0 0 0.9859154929577465rem;
+    vertical-align: middle;
+    /*float: right;*/
+}
+
+.authcode {
+    width: 2.8732394366197185rem;
+    height: 1.0140845070422535rem;
+    float: right;
+    line-height: 1.0140845070422535rem;
+    color: #b71c22;
+    font-size: 0.36619718309859156rem;
+    border: 0.056338028169014086rem solid #b2b2b2;
+    border-radius: 0.256338028169014086rem;
+    text-align: center;
+    margin: 0.5rem 0 0 0.1577464788732394rem;
+}
+
+.phonePass {
+    height: 1.323943661971831rem;
+}
+
+.phonePass input {
+    width: 98%;
+    height: 1.1549295774647887rem;
+}
+
+.user-login {
+    display: block;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.user-login p {
+    /*padding-bottom: 0.4225352112676056rem;*/
+    font-size: 0.2676056338028169rem;
+    color: #e8270c;
+    text-align: center;
+    line-height: 0.6rem;
+    visibility: hidden;
+}
+
+.user-login input[type="submit"] {
+    display: block;
+    background-color: #b81b22;
+    color: #fff;
+    padding: 0.39436619718309857rem 0;
+    font-size: 0.4225352112676056rem;
+    text-align: center;
+    width: 8.701408450704226rem;
+    height: 1.323943661971831rem;
+    margin: 0.1788732394366197rem 0.8028169014084507rem 0 0.7028169014084507rem;
+    outline: none;
+    border: 0;
+}
+
+.service {
+    margin: 0.28169014084507044rem 0.8633802816901409rem 0.28169014084507044rem 0.8633802816901409rem;
+}
+
+.service a {
+    color: #4c4c4c;
+}
+
+.service a:nth-child(1) {
+    float: left;
+}
+
+.service a:nth-child(2) {
+    float: right;
+}
+
+
+/*---------other----------*/
+
+.other-login {
+    margin-top: 0.7915492957746479rem;
+}
+
+.loginText {
+    padding: 0 0 0 0.8633802816901409rem;
+    color: #4c4c4c;
+}
+
+.login-ul {
+    /*padding: 0.30985915492957744rem 0.5915492957746479rem;*/
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    width: 3.5774647887323945rem;
+    margin: 0.30985915492957744rem 0 0 0.8197183098591549rem;
+}
+
+.login-ul li {
+    height: 0.5507042253521127rem;
+    width: 0.7915492957746479rem;
+}
+
+.login-ul li a {
+    width: 0.7915492957746479rem;
+    display: block;
+    position: relative;
+    height: 0.5507042253521127rem;
+}
+
+.alipay {
+    background: url(../imgs/下载.png) no-repeat;
+    background-size: 3.5774647887323945rem 0.4507042253521127rem;
+}
+
+.sina {
+    background: url(../imgs/下载.png) no-repeat -0.96rem 0;
+    background-size: 3.5774647887323945rem 0.4507042253521127rem;
+}
+
+.xiaomi {
+    background: url(../imgs/下载.png) no-repeat -2rem 0;
+    background-size: 3.5774647887323945rem 0.4507042253521127rem;
+}
+
+.qq {
+    background: url(../imgs/下载.png) no-repeat -3rem 0;
+    background-size: 3.5774647887323945rem 0.4507042253521127rem;
+}

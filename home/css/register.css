@@ -1,0 +1,135 @@
+body {
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    max-width: 640px;
+    width: 100%;
+    overflow: hidden;
+    height: 1.2112676056338028rem;
+    background: #b81c22;
+    text-align: center;
+    line-height: 1.2112676056338028rem;
+}
+
+.topback {
+    position: absolute;
+    top: 50%;
+    left: 0.5211267605633803rem;
+    width: 0.39436619718309857rem;
+    height: 0.39436619718309857rem;
+    border-bottom: 0.028169014084507043rem solid #fff;
+    border-left: 0.028169014084507043rem solid #fff;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.topTitle {
+    display: inline-block;
+    font-size: 0.4084507042253521rem;
+    color: #fff;
+}
+
+
+/*-----------------------*/
+
+.yanzheng {
+    padding: 0.676056338028169rem 0.5915492957746479rem
+}
+
+.inp>input {
+    width: 5.098591549295775rem;
+    height: 1.1549295774647887rem;
+    outline: none;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    text-indent: 0.36619718309859156rem;
+    margin: 0.16901408450704225rem 0;
+}
+
+.inp img {
+    display: inline-block;
+    width: 2.3943661971830985rem;
+    height: 1.0704225352112675rem;
+    margin: 0 0 0 0.9859154929577465rem;
+    vertical-align: middle;
+}
+
+.authcode {
+    width: 2.8732394366197185rem;
+    height: 1.0140845070422535rem;
+    float: right;
+    line-height: 1.0140845070422535rem;
+    color: #b71c22;
+    font-size: 0.36619718309859156rem;
+    border: 0.056338028169014086rem solid #b2b2b2;
+    border-radius: 0.256338028169014086rem;
+    text-align: center;
+    margin: 0.4rem 0.1577464788732394rem 0.0422535211267605rem;
+}
+
+.phonePass input {
+    /*width: 8.915492957746478rem;*/
+    width: 98%;
+    height: 1.1549295774647887rem;
+    outline: none;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    text-indent: 0.36619718309859156rem;
+    margin: 0.16901408450704225rem 0;
+}
+
+.pasword input {
+    /*width: 8.915492957746478rem;*/
+    width: 98%;
+    height: 1.1549295774647887rem;
+    outline: none;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    text-indent: 0.36619718309859156rem;
+    margin: 0.1267605633802817rem 0;
+}
+
+.btn {
+    display: block;
+    position: absolute;
+    right: 0.8450704225352113rem;
+    top: 7.2rem;
+    width: 1.4366197183098592rem;
+    height: 0.9014084507042254rem;
+}
+
+.btn-off {
+    background: url(./home/imgs/btn.png) no-repeat;
+    background-size: 1.408450704225352rem 0.9014084507042254rem;
+}
+
+.inp p {
+    color: #b2b2b2;
+    font-size: 0.2535211267605634rem;
+    text-align: center;
+    margin-top: 1.267605633802817rem;
+    display: block;
+}
+
+.inp p a {
+    font-size: 0.28169014084507044rem;
+}
+
+
+/*---------点击注册------*/
+
+.inp input[type="submit"] {
+    display: block;
+    background-color: #b81b22;
+    color: #fff;
+    padding: 0.39436619718309857rem 0;
+    font-size: 0.4225352112676056rem;
+    text-align: center;
+    width: 8.701408450704226rem;
+    height: 1.323943661971831rem;
+    margin: 0.4788732394366197rem 0.7028169014084507rem 0 0;
+    outline: none;
+    border: 0;
+}

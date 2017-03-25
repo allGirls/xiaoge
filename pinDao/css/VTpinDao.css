@@ -1,0 +1,50 @@
+header{
+	width: 10.0rem;
+	height: 1.196106rem;
+	background: #a82f27;
+}
+header img{
+	float: left;	
+	width: 0.486787rem;
+	height: 0.723227rem;
+	margin-top: 0.208623rem;
+	margin-left: 0.417246rem;
+}
+header h2{
+	margin-top: 0.347705rem;
+	margin-right: 4.49235rem;
+	float: right;
+	color: white;
+	font-weight: 100;
+}
+.imgone{
+	width: 10.0rem;
+	height: 4.311544rem;
+	float: left;
+	margin-bottom: 0.33rem;
+}
+.imgtwo{
+	height: 1.446453rem;
+	width: 10.0rem;
+	float: left;
+}
+.vtStroe{
+	float: left;
+	margin-bottom: 2.5rem;
+}
+figure{
+	width: 4.993046rem;
+	height: 5.7rem;
+	float: left;
+	padding-left: 0.278164rem;
+}
+figure img{
+	width: 4.172462rem;
+	height: 4.659249rem;
+}
+figure figcaption p{
+	margin-bottom: 0.139082rem;
+}
+figure figcaption p:last-of-type{
+	color: red;
+}

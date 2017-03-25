@@ -1,0 +1,192 @@
+header{
+	width: 10rem;
+	line-height: 1.25rem;
+	background: #b61b21;
+	position: relative;
+}
+header p{
+	position: absolute;
+	left: 0.555556rem;
+	top: 0.305556rem;
+	width: 0.375rem;
+	height: 0.666667rem;
+	background: url(../../imgs/ltIcon.png) no-repeat;
+	background-size: 0.375rem 0.666667rem;
+}
+header h3{
+	width: 100%;
+	font-size: 0.430556rem;
+	color: #fff;
+	text-align: center;
+}
+
+main{
+	width: 10rem;
+}
+.perCenter{
+	width: 10rem;
+	height: 5.555556rem;
+	background: url(../../imgs/grzxBg.png) no-repeat;
+	background-size: 10rem 5.555556rem;
+	padding-top: 0.833333rem;
+}
+.pthy img{
+	display: block;
+	width: 2.097222rem;
+	height: 2.013889rem;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.userName{
+	text-align: center;
+	color: #fff;
+	font-size: 0.277778rem;
+	padding: 0.222222rem 0;
+}
+.pthyIcon img{
+	display: block;
+	width: 1.555556rem;
+	height: 0.472222rem;
+	border-radius: 0.138889rem;
+	margin: 0 auto;
+}
+.perCenter ul{
+	display: flex;
+	justify-content: space-around;
+	color: #fff;
+	font-size: 0.305556rem;
+	padding-top: 0.194444rem;
+}
+/*订单*/
+.order{
+	background: #f0eff4;
+	padding-top: 0.055556rem;
+}
+.allOrder{
+	background: #fff;
+	margin-top: 0.361111rem;
+	
+}
+.allOrder p{
+	height: 1.111111rem;
+	line-height: 1.111111rem;
+	padding-left: 0.277778rem;
+	font-size: 0.305556rem;
+	color: #111;
+	border-bottom: 0.027778rem solid #efefef;
+}
+.allOrder p span{
+	float: right;
+	font-size: 1.055556rem;
+	color: #b1b1b1;
+	font-family: Agency FB;
+	padding-right: 0.277778rem;
+}
+
+/*订单*/
+.allOrder ul{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 0.416667rem;
+}
+.allOrder li span{
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0.347222rem auto 0.069444rem auto;
+	font-size: 0.291667rem;
+	color: #050505;
+	background-image: url(../../imgs/orderSpirte.png);
+}
+.allOrder li:nth-of-type(1) span{
+	background-position: left -0.583333rem;
+	background-size: 0.5rem 2.222222rem;
+}
+.allOrder li:nth-of-type(2) span{
+	background-position: center -1.138889rem;
+	background-size: 0.5rem 2.222222rem;
+}
+.allOrder li:nth-of-type(3) span{
+	background-position: left -1.694444rem;
+	background-size: 0.5rem 2.222222rem;
+}
+
+.flowPath{
+	margin-top: 0.361111rem;
+	background: #fff;
+	margin-bottom: 2.3rem;
+	float: left;
+}
+.flowPath ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.flowPath ul li{
+	width: 2.5rem;
+	height: 2.361111rem;
+	padding-top: 0.486111rem;
+	border-bottom: 0.027778rem solid #efefef;
+}
+.flowPath ul li a{
+	display: block;
+	height: 1.388889rem;
+	text-align: center;
+	border-left: 0.013889rem #ededed solid;
+	border-right: 0.013889rem #f1f1f1 solid;
+}
+.flowPath ul li:nth-of-type(1) a,.flowPath ul li:nth-of-type(5) a,.flowPath ul li:nth-of-type(9) a{
+	border-left:none;
+}
+.flowPath ul li:nth-of-type(4) a,.flowPath ul li:nth-of-type(8) a,.flowPath ul li:nth-of-type(10) a{
+	border-right:none;
+}
+.flowPath ul li a span{
+	display: block;
+	width: 0.833333rem;
+	height: 0.763889rem;
+	background-image: url(../../imgs/wlcx.png);
+	margin: 0 auto 0.138889rem auto;
+}
+.flowPath ul li:nth-of-type(1) a span{
+	background-size: 0.902778rem 11.666667rem;;
+	background-position: center top;
+}
+.flowPath ul li:nth-of-type(2) a span{
+	background-size: 0.902778rem 11.666667rem;;
+	background-position: center -0.875rem;
+}
+.flowPath ul li:nth-of-type(3) a span{
+	background-size: 0.902778rem 11.666667rem;;
+	background-position: center -1.75rem;
+}
+.flowPath ul li:nth-of-type(4) a span{
+	background-size: 0.902778rem 11.666667rem;;
+	background-position: center -2.625rem;
+}
+.flowPath ul li:nth-of-type(5) a span{
+	background-size: 0.902778rem 11.666667rem;;
+	background-position: center -3.4rem;
+}
+.flowPath ul li:nth-of-type(6) a span{
+	background-size: 0.902778rem 11.666667rem;;
+	background-position: center -4.22rem;
+}
+.flowPath ul li:nth-of-type(7) a span{
+	background-size: 0.902778rem 11.666667rem;;
+	background-position: center -5rem;
+}
+.flowPath ul li:nth-of-type(8) a span{
+	background-size: 0.902778rem 11.666667rem;;
+	background-position: center -5.8rem;
+}
+.flowPath ul li:nth-of-type(9) a span{
+	background-size: 0.902778rem 11.666667rem;;
+	background-position: center -6.66rem;
+}
+.flowPath ul li:nth-of-type(10) a span{
+	background-size: 0.902778rem 11.666667rem;;
+	background-position: center -7.4rem;
+}
+.flowPath ul li:nth-of-type(9),.flowPath ul li:nth-of-type(10){
+	border-bottom: none;
+}

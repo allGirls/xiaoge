@@ -1,0 +1,32 @@
+	<link rel="stylesheet" type="text/css" href="./changeStore/css/changeStore.css"/>
+	<header>
+		<img src="./imgs/left1.jpg" onclick="history.back()"/>
+		<h2>{{ id.TypeName }}</h2>
+	</header>
+	<ul class="fenlei">
+		<!--默认显示新品里面的商品-->
+		<li ng-click="showstroeList(id.Id)" class="myColor">新品</li>
+		<li ng-click="showstroeList('TiXuNew2')">销量</li>
+		<li ng-click="showstroeList()">评价</li>
+		<li ng-click="showstroeList()">价格</li>
+	</ul>
+	<ul class="stroeList">
+		<li ng-repeat="item in arr" ng-click="come()">
+			<img src="{{ item.img }}"/>
+			<p>{{ item.name }}</p>
+			<p>{{ item.price }}</p>
+		</li>
+	</ul>
+	<!--分页-->
+	<ul class="fenye">
+		<!--<li ng-click="headPage()">
+			<a>上一页</a>
+		</li>-->
+		<li ng-repeat="value in brr" ng-click="changePage(this.$index)">
+			<a ng-class="{true : 'myColor'}[crr[value-1]]">{{ value }}</a>
+		</li>
+		<!--<li ng-click="headPage()">
+			<a>下一页</a>
+		</li>-->
+	</ul>
+ 

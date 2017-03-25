@@ -1,0 +1,92 @@
+<link rel="stylesheet" type="text/css" href="./storeDetali/css/storeDetali.css"/> 
+<link rel="stylesheet" href="./home/css/swiper-3.4.1.min.css">
+<!-- 头部 -->
+<header>
+	<p onclick="history.back()"></p>
+	<h3>商品详情</h3>
+</header>
+<main>
+	<!-- 轮播图 -->
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide"><img src="./home/imgs/2017_3_14_1_59_35_8570_640x402.jpg" alt=""></div>
+	        <div class="swiper-slide"><img src="./home/imgs/2017_3_9_15_19_35_9368_640x402.jpg" alt=""></div>
+	        <div class="swiper-slide"> <img src="./home/imgs/2017_3_14_9_53_41_2383_640x402.jpg" alt=""></div>
+	        <div class="swiper-slide"><img src="./home/imgs/2017_3_14_16_8_24_7182_640x310.jpg" alt=""></div>
+	        <div class="swiper-slide"><img src="./home/imgs/2017_3_16_14_58_56_5404_640x402.jpg" alt=""></div>
+	        <div class="swiper-slide"><img src="./home/imgs/2017_3_21_23_52_24_9873_640x402.jpg" alt=""></div>
+	        <div class="swiper-slide"><img src="./home/imgs/2017_3_22_9_58_23_9651_640x402.jpg" alt=""></div>
+	        <div class="swiper-slide"><img src="./home/imgs/2017_3_22_9_58_23_9651_640x402.jpg" alt=""></div>
+	        <div class="swiper-slide"><img src="./home/imgs/2017_3_22_9_58_23_9651_640x402.jpg" alt=""></div>
+	    </div>
+	    <div class="swiper-pagination"></div>
+	</div>
+	<!-- 轮播图下面文字 -->
+	<div class="carouseText">
+		<p class="ys"><span>预</span> 2017 春款 夹克 棒球夹克 女款 黑色 </p>
+		<del>￥299.00</del>
+		<p class="ysj">预售价：<span>￥269.00</span> &nbsp;定金：<span>￥19.00</span></p>
+		<p class="djcz">充100返100,点击充值</p>
+	</div>
+	<!-- 选择颜色、尺码 -->
+	<div class="yscm">
+		<h6>选择颜色/尺码 <span>&gt;</span></h6>
+		<div class="xzys">
+			<p>选择颜色</p>
+			<span>黑色</span> <span>白色</span>
+			<p>尺码选择</p>
+			<span>S</span> <span>M</span>
+			<p>购买数量</p>
+			<div class="gmsl">
+				<p>-</p>
+				<input type="text" value="1">
+				<p>+</p>
+			</div>
+		</div>
+	</div>
+	<!-- 预售说明 -->
+	<div class="yssm">
+		<p>预售说明:</p>
+		<p>1.定金为¥19.00，仅限在线支付。</p>
+		<p>2.尾款为¥210.00，商品将按照付款顺序依次发货，预计发货时间为：2017/03/30 17:00</p>
+		<p>3.也可一次支付全款，享受优先发货；请在预计发货前完成支付，逾期将取消订单。</p>
+	</div>
+	<!-- 商品详情 -->
+	<div class="spxq">
+		<ul>
+			
+			<li ng-click="spxqFn('spxq')" ng-class="{true:'spRed',false:'spBlack'}[spxqObj.spxq]">商品详情</li>
+			<li ng-click="spxqFn('pl')" ng-class="{true:'spRed',false:'spBlack'}[spxqObj.pl]">评论</li>
+			<li ng-click="spxqFn('zx')" ng-class="{true:'spRed',false:'spBlack'}[spxqObj.zx]">咨询</li>
+		</ul>
+		<div class="spxqLeft" ng-show="spxqObj.spxq">
+			<img src="./storeDetali/imgs/1.jpg" alt="">
+			<img src="./storeDetali/imgs/2.jpg" alt="">
+			<img src="./storeDetali/imgs/3.jpg" alt="">
+			<img src="./storeDetali/imgs/4.jpg" alt="">
+			<img src="./storeDetali/imgs/5.jpg" alt="">
+			<img src="./storeDetali/imgs/6.jpg" alt="">
+			<img src="./storeDetali/imgs/7.jpg" alt="">
+			<img src="./storeDetali/imgs/8.jpg" alt="">
+			<img src="./storeDetali/imgs/9.jpg" alt="">
+			<img src="./storeDetali/imgs/10.jpg" alt="">
+			<img src="./storeDetali/imgs/11.jpg" alt="">
+			<img src="./storeDetali/imgs/12.jpg" alt="">
+			<img src="./storeDetali/imgs/13.jpg" alt="">
+			<img src="./storeDetali/imgs/14.jpg" alt="">
+			<img src="./storeDetali/imgs/15.jpg" alt="">
+		</div>
+		<div class="spxqcenter" ng-show="spxqObj.pl">
+			<!-- <h1>评论</h1> -->
+			程序猿很忙, <br>
+			此功能还未开发
+		</div>
+		<div class="spxqRight" ng-show="spxqObj.zx">
+			<h3>我要咨询</h3>
+			<textarea cols="30" rows="10" placeholder="wrwer">
+				
+			</textarea>
+			<button>提交</button>
+		</div>
+	</div>
+</main>

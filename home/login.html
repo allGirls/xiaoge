@@ -1,0 +1,61 @@
+    <link rel="stylesheet" href="./home/css/login.css">
+      <div class="header">
+        <span class="topback" ng-click="back()"></span>
+        <span class="topTitle">登录</span>
+      </div>
+      <div class="conten">
+        <div class="login-tab">
+          <a ui-sref="login.putong" ng-click="add()">
+            <span class="login1">
+      			普通登录
+              <i ng-class="{true : 'i1'}[flag]"></i>
+            </span>
+          </a>
+        <a ui-sref="login.kuaideng" ng-click="add()">
+          <span class="login2">
+        		快速登录
+             <i ng-class="{true : 'i1'}[!flag]"></i> 
+          </span>
+        </a>
+
+        </div>
+        <form  action="" method="post">
+          <div class="change" ui-view>
+
+          </div>
+
+          <div class="user-login">
+            <p>请输入正确的用户名和密码</p>
+            <input type="submit" name="login" value="登&nbsp;&nbsp;录">
+            <!-- <a href="#">登&nbsp;&nbsp;录</a> -->
+          </div>
+        </form>
+        <div class="service clear">
+          <a href="#">
+            免费注册
+            <span>></span>
+          </a>
+          <a href="#">
+            手机账号取回密码
+            <span>></span>
+          </a>
+        </div>
+
+      </div>
+      <div class="other-login">
+        <span class="loginText">使用其他账号登录</span>
+        <ul class="login-ul">
+          <li>
+            <a href="#" class="alipay"></a>
+          </li>
+          <li>
+            <a href="#" class="sina"></a>
+          </li>
+          <li>
+            <a href="#" class="xiaomi"></a>
+          </li>
+          <li>
+            <a href="#" class="qq"></a>
+          </li>
+        </ul>
+      </div>

@@ -1,0 +1,204 @@
+header{
+	width: 10rem;
+	line-height: 1.25rem;
+	border-bottom: 0.015625rem solid #bababa;
+	background: #b61b21;
+	position: relative;
+}
+header p{
+	position: absolute;
+	left: 0.555556rem;
+	top: 0.305556rem;
+	width: 0.375rem;
+	height: 0.666667rem;
+	background: url(../../imgs/ltIcon.png) no-repeat;
+	background-size: 0.375rem 0.666667rem;
+}
+header h3{
+	width: 100%;
+	font-size: 0.430556rem;
+	color: #fff;
+	text-align: center;
+}
+main{
+	width: 10rem;
+	margin-bottom: 1.6rem;
+}
+/*轮播图*/
+.swiper-container{
+	width: 8.0rem;
+    height: 8.0rem;
+    margin: 0.266667rem 0 0.533333rem 0;
+}
+.swiper-slide img {
+    width: 8.0rem;
+    height: 8.0rem;
+}
+/*轮播图下面文字*/
+.carouseText,.yscm,.yssm{
+	padding-left: 0.64rem;
+	padding-right: 0.64rem;
+}
+.carouseText .ys{
+	font-size: 0.373333rem;
+	color: #4c4c4c;
+}
+.carouseText .ys span{
+	display: inline-block;
+	width: 0.426667rem;
+	height: 0.48rem;
+	text-align: center;
+	line-height: 0.48rem;
+	color: #fff;
+	font-size: 0.32rem;
+	background: #a10000;
+	margin-right: 0.16rem;
+}
+.carouseText del{
+	display: block;
+	font-size: 0.266667rem;
+	color: #4c4c4c;
+	padding: 0.24rem 0;
+	border-bottom: 0.026667rem solid #ccc;
+}
+.carouseText .ysj,.carouseText .djcz{
+	color: #b81b22;
+	font-size: 0.32rem;
+	padding: 0.24rem 0 0 0;
+}
+.carouseText .ysj span{
+	font-size:0.373333rem;
+	color: #c8161e;
+}
+.carouseText .djcz{
+	padding-bottom: 0.24rem;
+	border-bottom: 0.026667rem solid #ccc;
+}
+/*选择颜色、尺码*/
+.yscm h6{
+	height: 1.066667rem;
+	line-height: 1.066667rem;
+	margin-top: 0.293333rem;
+	font-weight: normal;
+	font-size: 0.373333rem;
+	color: #4c4c4c;
+	background: url(./storeDetali/imgs/size_icon.jpg) no-repeat #f5f5f5 0.266667rem center;
+	background-size: 0.48rem 0.48rem;
+	padding-left: 0.96rem;
+}
+.yscm h6 span{
+	float: right;
+	padding-right: 0.266667rem;
+	color: #885858;
+	font-size: 0.533333rem;
+}
+.yscm .xzys p{
+	font-size: 0.293333rem;
+	color: #4d4d4d;
+	padding: 0.293333rem 0 0.346667rem 0;
+	border-top: 0.026667rem solid #ccc;
+}
+.yscm .xzys p:first-of-type{
+	border-top: none;
+}
+.xzys>span{
+	display: inline-block;
+	width: 1.226667rem;
+	height: 0.853333rem;
+	text-align: center;
+	line-height: 0.853333rem;
+	border: 0.026667rem solid #b3b3b3;
+	font-size: 0.293333rem;
+	color: #4d4d4d;
+	margin-right: 0.133333rem;
+	margin-bottom: 0.373333rem;
+}
+/*加减*/
+.gmsl{
+	display: flex;
+	padding-bottom: 0.266667rem;
+	
+}
+.yscm .gmsl p, .gmsl input{
+	width: 0.693333rem;
+	height: 0.693333rem;
+	background: #f5f5f5;
+	text-align: center;
+	line-height: 0.693333rem;
+	padding: 0;
+	margin-right: 0.266667rem;
+}
+.gmsl input{
+	border: 0.026667rem solid #999;
+}
+.yscm .gmsl p:last-of-type{
+	color: #efefef;
+	background: #4d4d4d;
+}
+/*预售说明*/
+.yssm{
+	border-top: 0.026667rem solid #ccc;
+	padding-top: 0.4rem;
+	margin-bottom: 0.64rem;
+}
+.yssm p{
+	font-size: 0.346667rem;
+	color: #b81b22;
+	line-height: 0.586667rem;
+}
+/*商品详情 标题*/
+.spxq ul{
+	display: flex;
+	justify-content: space-around;
+	font-size: 0.373333rem;
+	border-bottom: 0.026667rem solid #4d4d4d;
+	padding-bottom: 0.533333rem;
+}
+/*点击哪个 哪个变成红色*/
+.spRed{
+	color: #c8161e;
+}
+.spBlack{
+	color: #4c4c4c;
+}
+
+/*商品详情*/
+.spxqLeft img{
+	display: block;
+	width: 100%;
+}
+.spxqcenter{
+	width: 100%;
+	font-size: 0.96rem;
+	text-align: center;
+	line-height: 1.2rem;
+	color: #d9e9e9;
+	font-weight: bold;
+	padding: 0.533333rem 0;
+}
+
+/*咨询*/
+.spxqRight{
+	padding: 0 0.533333rem;
+	background: #e3e3e3;
+	margin-top: 0.64rem;
+}
+.spxqRight h3{
+	color: #444;
+	font-size: 0.4rem;
+	font-weight: normal;
+	padding: 0.266667rem 0 0.16rem 0;
+}
+.spxqRight textarea{
+	width: 100%;
+}
+.spxqRight button{
+	width: 100%;
+	height: 0.853333rem;
+	line-height: 0.853333rem;
+	background: #d5200e;
+	font-size: 0.4rem;
+	border: none;
+	color: #fff;
+	margin-top: 0.48rem;
+}

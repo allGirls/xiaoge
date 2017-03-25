@@ -1,0 +1,11 @@
+<link rel="stylesheet" type="text/css" href="./pinDao/css/pinDao.css"/> 
+<header>
+	<img src="./imgs/left1.jpg" ng-click="back()"/>
+	<h2>频道</h2>
+</header>
+<ul>
+	<li ng-repeat="item in arr" ng-click="change(this.$index)" ui-sref="VTpinDao">
+		<img src="{{ item.img }}"/>
+	</li>
+</ul>
+

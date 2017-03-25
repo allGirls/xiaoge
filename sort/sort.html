@@ -1,0 +1,33 @@
+ 
+	<link rel="stylesheet" href="./sort/css/classify.css">
+ 
+	<!-- ****************头部******************** -->
+	<header class="top">
+		<div class="top_left">
+			<a><img src="./imgs/back.jpg" alt="" ng-click="back()"></a>
+		</div>
+		<h2>分类</h2>
+	</header>
+
+	<div class="main clear">
+		<!-- *************左边菜单**************** -->
+		<div class="main_menu">
+			<ul>
+				<li class="click_li"><a class="click_a" ui-sref="sort.tuijian">推荐</a></li>
+				<li><a ui-sref="sort.nanzhuang">男装</a></li>
+				<li><a ui-sref="sort.nvzhuang">女装</a></li>
+				<li><a ui-sref="sort.nanxie">男鞋</a></li>
+				<li><a ui-sref="sort.nvxie">女鞋</a></li>
+				<li><a ui-sref="sort.wapin">袜品</a></li>
+				<li><a ui-sref="sort.jiaju">家居</a></li>
+				<li><a ui-sref="sort.tongzhuang">童装</a></li>
+				<li><a ui-sref="sort.neiyi">内衣</a></li>
+			</ul>
+		</div>
+		
+		<!-- *************右边列表**************** -->
+		<div class="good_lists" ui-view>
+				
+		</div>
+	</div>
+ 

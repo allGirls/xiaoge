@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    max-width: 640px;
+    width: 100%;
+    height: 1.2112676056338028rem;
+    overflow: hidden;
+    background: #b81c22;
+}
+
+.search-form {
+    position: absolute;
+    left: 0.28169014084507044rem;
+    top: 0.6rem;
+    z-index: 99;
+    background-color: #fff;
+    transform: translateY(-50%);
+    width: 85%;
+    line-height: 1.2112676056338028rem;
+    height: 0.704225352112676rem;
+    border-radius: 0.2rem;
+}
+
+.search-form a {
+    position: absolute;
+    right: -1rem;
+    top: -0.1rem;
+    background: url(../imgs/msg3.png) no-repeat center center;
+    display: block;
+    z-index: 999;
+    width: 1rem;
+    height: 0.95rem;
+    background-size: 0.7rem;
+}
+
+.search-icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 99;
+    transform: translateY(-50%);
+    display: inline-block;
+    margin-left: 0.28169014084507044rem;
+    width: 0.4507042253521127rem;
+    height: 0.43661971830985913rem;
+    background: url(../imgs/search.png) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+}
+
+.swiper-slide img {
+    height: 6.422535211267606rem;
+    width: 100%;
+    margin-top: 1.2112676056338028rem;
+}
+
+.tiShi img {
+    height: 1.352112676056338rem;
+    width: 100%;
+    margin: 0.22535211267605634rem 0 0 0;
+}
+
+.chongZhi img {
+    height: 0.8450704225352113rem;
+    width: 100%;
+}
+
+
+/*---------main1春季新品----------*/
+
+.chunJi img {
+    height: 1.352112676056338rem;
+    width: 100%;
+}
+
+.main1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main01 img {
+    width: 49.5%;
+}
+
+
+/*---------------main2更多精品---------*/
+
+.gengDuo img {
+    height: 1.352112676056338rem;
+    width: 100%;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main02 img {
+    width: 49.5%;
+}
+
+
+/*-------------main3韩国购---------*/
+
+.hanGuo img {
+    height: 1.352112676056338rem;
+    width: 100%;
+}
+
+.main3 img {
+    width: 100%;
+    height: 5.014084507042254rem;
+}
+
+.main03 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main03 img {
+    height: 7.830985915492958rem;
+    width: 49.5%;
+}
+
+.main03 img:nth-child(odd) {
+    margin: 0.04225352112676056rem 1px 0 -1px;
+}
+
+.main03 img:nth-child(even) {
+    margin: 0.04225352112676056rem -1px 0 1px;
+}
+
+
+/*-------all and top-------*/
+
+.allandtop {
+    height: 1.267605633802817rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.allandtop a {
+    display: block;
+    line-height: 0;
+}
+
+.see-all {
+    float: left;
+    margin: 0.04225352112676056rem 1px 0 -1px;
+    width: 50%
+}
+
+.allandtop a img {
+    height: auto;
+    width: 100%;
+    border: 0;
+}
+
+.ret-top {
+    float: right;
+    margin: 0.04225352112676056rem -1px 0 1px;
+    width: 50%;
+}
+
+
+/*--------登陆/注册--------*/
+
+.login {
+    margin: 1.971830985915493rem 0 2.408450704225352rem 0;
+    text-align: center;
+}
+
+.login-btn {
+    display: inline-block;
+    font-size: 0.36619718309859156rem;
+    font-family: "Helvetica Neue", Heletica, STHeiTiserif;
+    /*width: 6.964788732394366rem;*/
+    /*height: 0.7323943661971831rem;*/
+}
+
+.login-btn a {
+    border: 1px solid rgb(242, 242, 242);
+    width: 2.535211267605634rem;
+    height: 0.804225352112676rem;
+    line-height: 0.4323943661971831rem;
+    background-color: #fff;
+    display: inline-block;
+    padding: 0.2rem 0;
+    float: left;
+    margin: 0 0.2112676056338028rem;
+}
+
+
+/*---------footer-------*/
+
+.footer {
+    width: 100%;
+    margin-bottom: 0.9014084507042254rem;
+    text-align: center;
+    display: block;
+    font-size: 0.36619718309859156rem;
+}
+
+.footer ul {
+    width: 6.957746478873239rem;
+    height: 2.3661971830985915rem;
+    border-top: 0.04225352112676056rem solid rgb(61, 61, 61);
+    border-bottom: 0.04225352112676056rem solid rgb(61, 61, 61);
+    margin: 1.0422535211267605rem auto 0.28169014084507044rem;
+    padding: 0.38028169014084506rem 0 0 0;
+    box-sizing: border-box;
+    display: flex;
+    /*justify-content: space-around;*/
+}
+
+.footer ul li {
+    display: block;
+    width: 1.0422535211267605rem;
+    height: 2.028169014084507rem;
+    margin: 0 0 0 0.9154929577464789rem;
+}
+
+.footer ul li:nth-of-type(1) {
+    background: url(../imgs/help1.png) no-repeat;
+    background-size: 1.0704225352112675rem auto;
+    margin: 0;
+}
+
+.footer ul li:nth-of-type(2) {
+    background: url(../imgs/help1.png) no-repeat;
+    background-size: 1.0704225352112675rem auto;
+}
+
+.footer ul li:nth-of-type(3) {
+    background: url(../imgs/help1.png) no-repeat;
+    background-size: 1.0704225352112675rem auto;
+}
+
+.footer ul li:nth-of-type(4) {
+    background: url(../imgs/help1.png) no-repeat;
+    background-size: 1.0704225352112675rem auto;
+}
+
+.copyright p {
+    font-size: 0.2676056338028169rem;
+}

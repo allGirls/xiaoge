@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+}
+.menu{
+	border-top: 0.013908rem solid #dde2e5;
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	height: 1.5rem;
+	font-size: 0.4rem;
+    background: white;
+}
+.menu li img{
+	width: 0.904033rem;
+	height: 0.834492rem;
+}
+.menu li a{
+	color: #8a8484;
+	display: block;
+}
+.menu li{
+	float: left;
+	padding: 0 0.5rem;
+}
+ 

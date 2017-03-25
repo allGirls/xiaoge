@@ -1,0 +1,88 @@
+/*============头部=============*/
+.top{
+	width: 100%;
+	height: 1.057024rem;
+	display: flex;
+	align-items: center;
+	padding: 0 0.486787rem;
+	background: #b81c22;;
+}
+
+.top .top_left{
+	margin-right: 3.616134rem;
+}
+
+.top .top_left img{
+	width: 0.417246rem;
+	height: 0.69541rem;
+
+}
+
+.top h2{
+	font-size: 0.417246rem;
+	color: white;
+}
+
+/*=======================左边菜单=======================*/
+.main .main_menu{
+	width: 2.503477rem;
+	height: 15.823366rem;
+	overflow-y: scroll;
+	float: left;
+	background: #e5e5e5;
+}
+
+.main .main_menu li{
+	width: 2.503477rem;
+	height: 0.904033rem;
+	font-size: 0.278164rem;
+	line-height: 0.904033rem;
+	text-align: center;
+	border-bottom: 0.027816rem solid white;
+	font-weight: bold;
+}
+
+
+/*===============li点击时的样式===============*/
+.click_a{
+	color: red;
+}
+
+.click_li{
+	background: white;
+}
+
+
+/*================右边商品列表==============*/
+.main .good_lists{
+	width: 7.226982rem;
+	height: 15.823366rem;
+	overflow-y: scroll;
+	float: right;
+}
+
+
+/*=============右边每一块列表=============*/
+/*.good_lists .good_item ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.good_item ul li{
+	width: 1.8637rem;
+	height: 3.277051rem;
+	display: flex;
+	margin-right: 0.525869rem;
+}
+
+.good_item ul li figure img{
+	width: 1.8637rem;
+	height: 1.891516rem;
+	margin-top: 0.169541rem;
+}
+
+.good_item ul li figure p{
+	font-size: 0.347705rem;
+	text-align: center;
+	margin-top: 0.316787rem;
+}*/

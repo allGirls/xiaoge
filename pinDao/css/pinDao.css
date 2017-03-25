@@ -1,0 +1,30 @@
+header{
+	width: 10.0rem;
+	height: 1.196106rem;
+	background: #a82f27;
+}
+header img{
+	float: left;	
+	width: 0.486787rem;
+	height: 0.723227rem;
+	margin-top: 0.208623rem;
+	margin-left: 0.417246rem;
+}
+header h2{
+	margin-top: 0.347705rem;
+	margin-right: 4.49235rem;
+	float: right;
+	color: white;
+	font-weight: 100;
+}
+ul li{
+	margin-bottom: 0.278164rem;
+}
+ul li img{
+	width: 10.0rem;
+	height: 5.563282rem;
+}
+ul li:last-of-type{
+	margin-bottom: 2.0rem;
+}
+

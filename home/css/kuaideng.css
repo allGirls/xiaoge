@@ -1,0 +1,81 @@
+body {
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    max-width: 640px;
+    width: 100%;
+    overflow: hidden;
+    height: 1.2112676056338028rem;
+    background: #b81c22;
+    text-align: center;
+    line-height: 1.2112676056338028rem;
+}
+
+.topback {
+    position: absolute;
+    top: 50%;
+    left: 0.5211267605633803rem;
+    width: 0.39436619718309857rem;
+    height: 0.39436619718309857rem;
+    border-bottom: 0.028169014084507043rem solid #fff;
+    border-left: 0.028169014084507043rem solid #fff;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.topTitle {
+    display: inline-block;
+    font-size: 0.4084507042253521rem;
+    color: #fff;
+}
+
+
+/*----------内容--------*/
+
+.content {
+    position: relative;
+    top: 0;
+    max-width: 640px;
+    padding: 0.1px 0 0 0;
+}
+
+.login-tab {
+    text-align: center;
+    /*border-bottom: 0.04225352112676056rem solid #f2f2f2;*/
+    position: relative;
+    line-height: 1.1549295774647887rem;
+    font-size: 0.08450704225352113rem;
+    color: #666;
+}
+
+.login-tab span {
+    font-size: 0.39436619718309857rem;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.i1, .i2 {
+    width: 3.7464788732394365rem;
+    height: 0.08450704225352113rem;
+    text-align: center;
+    background-color: #b81c22;
+    display: block;
+    float: left;
+    position: relative;
+    left: 0.704225352112676rem;
+}
+
+
+/*----------form--------*/
+
+.yanzhengma input {
+    width: 5.098591549295775rem;
+    height: 1.1549295774647887rem;
+    outline: none;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    text-indent: 0.36619718309859156rem;
+}

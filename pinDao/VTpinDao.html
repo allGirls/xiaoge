@@ -1,0 +1,16 @@
+<link rel="stylesheet" type="text/css" href="./pinDao/css/VTpinDao.css"/> 
+<header>
+	<img src="./imgs/left1.jpg" onclick="history.back()"/>
+	<h2>VT频道</h2>
+</header>
+<img src="./imgs/topimg.jpg" class="imgone"/>
+<img src="./imgs/tixu.jpg" class="imgtwo"/>
+<div class="vtStroe">
+	<figure ng-repeat="item in storeList" ng-click="showDetail()">
+		<img src="{{ item.img }}"/>
+		<figcaption>
+			<p>{{ item.name }}</p>
+			<p>特惠价¥136 充值后相当于¥68.0</p>
+		</figcaption>
+	</figure>
+</div>
